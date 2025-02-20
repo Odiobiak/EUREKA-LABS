@@ -1,7 +1,7 @@
 # EUREKA-LABS
 # Eureka Labs - AI & Data Solutions Website
 
-![Eureka Labs Logo](https://via.placeholder.com/150x50.png/3498db/ffffff?text=Eureka+Labs)
+![Eureka Labs](https://odiobiak.github.io/EUREKA-LABS/)
 
 Welcome to the **Eureka Labs** website repository! This project is a modern, responsive landing page for a data and AI consulting firm. It showcases the company's services, team, tech stack, and more.
 
