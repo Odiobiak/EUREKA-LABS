@@ -174,10 +174,13 @@ nav .nav-links .btn {
 .about-image {
   flex: 1;
   text-align: center;
+  float: left;
+  width: 200px;
+  height: auto;
 }
 
 .about-image img {
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -241,6 +244,47 @@ nav .nav-links .btn {
   gap: 30px;
 }
 
+/* Selected Projects Section */
+.selected-projects {
+  padding: 80px 0;
+  background: #f9f9f9;
+}
+
+.selected-projects h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.project-cards .card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-cards .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-cards .card h3 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.project-cards .card p {
+  font-size: 16px;
+  color: #555;
+}
+
 /* Industries Section */
 .industries {
   padding: 80px 0;
@@ -270,24 +314,28 @@ nav .nav-links .btn {
   font-weight: 600;
 }
 
-.team-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
+.team-description {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.team .card img {
-  border-radius: 50%;
+.team-description p {
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
-.team .card h3 {
-  margin-bottom: 10px;
-  font-weight: 600;
+.team-description ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
-.team .card p {
-  margin: 5px 0;
+.team-description ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
 /* Tech Stack Section */
